@@ -1,1 +1,39 @@
-Brittanys-project
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Stuff Done! </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Bangers&amp;display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script src="list.js" async></script>
+</head>
+<body>
+ <div class="container">
+   <div class="inner">
+    <header>
+    <h1>The List</h1>
+    <p>
+    </p></header>
+    <div id="span">
+  <input type="txt" id="myInput" placeholder="Enter in a task...">
+  <button>
+  <span onclick="addItemToTheList()" class="addBtn">ADD TASK</span>
+  </button>
+</div>
+    <main>
+    <ul id="taskList"> 
+      <li> Feed The Cats<input type="checkbox" id="checkOff"> </li>
+      <li>Do the dishes <input type="checkbox" id="checkOff"></li>
+    </ul>
+    </main>
+    <button id="edit">Edit</button>
+    <button id="del">Delete</button>
+        <footer>
+      <p>~~Brittany Samuels - 200404362~~</p>
+    </footer>
+   </div><!--end inner-->
+  </div>
+    <!--<script src="main.js" async></script><!--end wrapper--> 
+</body>
+</html>
