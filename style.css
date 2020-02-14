@@ -60,10 +60,24 @@ form {
   padding-bottom: 40px; 
 }
 
-button {
+button,.addBttn {
   background-image: linear-gradient(rgb(37, 221, 235), #db48c8);
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
   border: black 1px solid;
+}
+
+
+.del {
+  background-image: linear-gradient(rgb(37, 221, 235), #db48c8);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: black 1px solid;
+  float: right;
+}
+
+.checkOff{
+  float: left;
 }

@@ -62,3 +62,37 @@ function prioritize(){
 
 //once clicked the item will be listed by priority 
 //text decor and style will underline in read */
+
+
+
+
+
+
+
+
+function addItemToTheList(){
+  let items = document.createElement("li");
+  let check = document.createElement("input");
+  let label = document.createElement("label");
+  let change = document.createElement("input");
+  let edit = document.createElement("button");
+  let del = document.createElement("button");
+  check.type = "checkBox";
+  change.type = "text";
+  
+  edit.innerText = "edit";
+  edit.className = "edit";
+  del.innerText = "del";
+  del.className = "del";
+  
+  label.innerText = addItemToTheList;
+  
+
+  items.appendChild(items);
+  items.appendChild(label);
+  items.appendChild(input);
+  items.appendChild(edit);
+  items.appendChild(del);
+
+    return items;
+}

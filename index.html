@@ -20,17 +20,22 @@
   <button>
   <span onclick="addItemToTheList()" class="addBtn">ADD TASK</span>
   </button>
+  <audio id = "audio" src = "https://freesound.org/people/Timbre/sounds/505977/" type="audio/mpeg"></audio>
 </div>
     <main>
     <ul id="taskList"> 
-      <li> Feed The Cats<input type="checkbox" id="checkOff"> </li>
-      <li>Do the dishes <input type="checkbox" id="checkOff"></li>
-    </ul>
+      <li>
+      <input type="checkbox" class="checkOff">
+      Feed The Cats
+    <button class="del">Delete</button></li>
+      <li>
+      <input type="checkbox" class="checkOff">
+      DISHES 
+    <button class="del">Delete</button></li>
     </main>
-    <button id="edit">Edit</button>
-    <button id="del">Delete</button>
         <footer>
       <p>~~Brittany Samuels - 200404362~~</p>
+
     </footer>
    </div><!--end inner-->
   </div>
